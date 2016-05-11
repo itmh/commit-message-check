@@ -11,7 +11,7 @@ function github_release() {
 echo "--- Creating GitHub release v$VERSION"
 
 github_release release \
-    --user "leominov" \
+    --user "itmh" \
     --repo "commit-message-check" \
     --tag "$VERSION" \
     --name "$VERSION" \
@@ -30,7 +30,7 @@ do
     echo $filename
 
     github_release upload \
-        --user "leominov" \
+        --user "itmh" \
         --repo "commit-message-check" \
         --tag "$VERSION" \
         --name "$filename" \
