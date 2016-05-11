@@ -11,7 +11,7 @@ func main() {
 		os.Exit(1)
 	}
 
-	buf, err := ioutil.ReadFile(os.Args[2])
+	buf, err := ioutil.ReadFile(os.Args[1])
 	if err != nil {
 		fmt.Println(err)
 		os.Exit(1)

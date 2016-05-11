@@ -1,7 +1,7 @@
 .PHONY: build-all upload-release
 
 build-all:
-	./scripts/build-binaries.sh
+	@./scripts/build-binaries.sh
 
 upload-release:
-	./scripts/upload-github-release.sh
+	@./scripts/upload-github-release.sh
