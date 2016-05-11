@@ -7,7 +7,11 @@ import (
 )
 
 func main() {
-	buf, err := ioutil.ReadFile(os.Args[1])
+	if len(os.Args) < 2 {
+		os.Exit(1)
+	}
+
+	buf, err := ioutil.ReadFile(os.Args[2])
 	if err != nil {
 		fmt.Println(err)
 		os.Exit(1)
