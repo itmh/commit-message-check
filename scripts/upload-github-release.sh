@@ -1,7 +1,7 @@
 #!/bin/bash
 
 VERSION=$(< ./VERSION)
-FILES=./release/*
+FILES=./releases/*
 RELEASE_TYPE=$1
 
 function github_release() {
