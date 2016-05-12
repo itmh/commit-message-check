@@ -39,7 +39,7 @@ func CommitMessageCheck(text string) error {
 			return errSubjectTooLong
 		} else if !IsFirstCharUpper(subject) {
 			return errSubjectWrongCase
-		} else if !IsEndWithDot(subject) {
+		} else if IsEndWithDot(subject) {
 			return errSubjectRedundantDot
 		}
 	}

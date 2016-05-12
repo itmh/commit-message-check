@@ -26,10 +26,10 @@ var testsMessage = []TestMessage{
 	{"One line message.", errSubjectRequired},
 	{"two line message with a long-long-long-long-long-long-long-long-long-long-long subject\n\nanother line", errSubjectTooLong},
 	{"two line message\n\nanother line", errSubjectWrongCase},
-	{"Two line message\n\nanother line", errSubjectRedundantDot},
-	{"Two line message.\n\nanother line", errMessageWrongCase},
-	{"Two line message.\n\nAnother line", errMessageWithoudDot},
-	{"Two line message.\n\nAnother line.", nil},
+	{"Two line message.\n\nanother line", errSubjectRedundantDot},
+	{"Two line message\n\nanother line", errMessageWrongCase},
+	{"Two line message\n\nAnother line", errMessageWithoudDot},
+	{"Two line message\n\nAnother line.", nil},
 }
 
 func TestIsEndWithDot(t *testing.T) {
