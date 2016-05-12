@@ -2,7 +2,6 @@
 
 VERSION=$(< ./VERSION)
 FILES=./releases/*
-RELEASE_TYPE=$1
 
 function github_release() {
     $GOPATH/bin/github-release "$@"
@@ -15,8 +14,7 @@ github_release release \
     --repo "commit-msg" \
     --tag "$VERSION" \
     --name "$VERSION" \
-    --description "README.md" \
-    $RELEASE_TYPE
+    --description "README.md"
 
 if [ $? -eq 0 ]; then
     echo "Done."
