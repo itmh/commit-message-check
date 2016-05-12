@@ -12,7 +12,7 @@ echo "--- Creating GitHub release v$VERSION"
 
 github_release release \
     --user "itmh" \
-    --repo "commit-message-check" \
+    --repo "commit-msg" \
     --tag "$VERSION" \
     --name "$VERSION" \
     --description "" \
@@ -31,7 +31,7 @@ do
 
     github_release upload \
         --user "itmh" \
-        --repo "commit-message-check" \
+        --repo "commit-msg" \
         --tag "$VERSION" \
         --name "$filename" \
         --file "$fullfile"

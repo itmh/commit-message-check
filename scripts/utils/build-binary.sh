@@ -10,8 +10,7 @@ fi
 export GOOS=${1}
 export GOARCH=${2}
 
-NAME="commit-message-check"
-
+NAME="commit-msg"
 BUILD_PATH="releases"
 
 echo -e "Building $NAME with:\n"
