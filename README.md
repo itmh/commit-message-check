@@ -1,6 +1,4 @@
-# Commit message hook
-
-[![Build Status](https://travis-ci.org/itmh/commit-msg.svg?branch=master)](https://travis-ci.org/itmh/commit-msg)
+# Commit message hook [![Build Status](https://travis-ci.org/itmh/commit-msg.svg?branch=master)](https://travis-ci.org/itmh/commit-msg) [![Release](https://img.shields.io/github/release/itmh/commit-msg.svg)](https://github.com/itmh/commit-msg/releases/latest)
 
 Простая утилита для проверки коммит-сообщения на соответствие некоторым нормам:
 
