@@ -17,20 +17,12 @@ var (
 
 // IsEndWithDot check
 func IsEndWithDot(str string) bool {
-	if str[len(str)-1:] != "." {
-		return false
-	}
-
-	return true
+	return str[len(str)-1:] == "."
 }
 
 // IsFirstCharUpper check
 func IsFirstCharUpper(str string) bool {
-	if strings.IndexFunc(str[0:1], unicode.IsUpper) == -1 {
-		return false
-	}
-
-	return true
+	return strings.IndexFunc(str[0:1], unicode.IsUpper) == 0
 }
 
 // CommitMessageCheck text
