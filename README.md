@@ -1,6 +1,6 @@
 # Commit message hook
 
-![Build Status](https://travis-ci.org/itmh/commit-msg.svg)
+[![Build Status](https://travis-ci.org/itmh/commit-msg.svg?branch=master)](https://travis-ci.org/itmh/commit-msg)
 
 Простая утилита для проверки коммит-сообщения на соответствие некоторым нормам:
 
