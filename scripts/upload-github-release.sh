@@ -15,7 +15,7 @@ github_release release \
     --repo "commit-msg" \
     --tag "$VERSION" \
     --name "$VERSION" \
-    --description "" \
+    --description "README.md" \
     $RELEASE_TYPE
 
 if [ $? -eq 0 ]; then
