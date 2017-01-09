@@ -10,7 +10,7 @@ function github_release() {
 echo "--- Creating GitHub release v$VERSION"
 
 github_release release \
-    --user "itmh" \
+    --user "leominov" \
     --repo "commit-msg" \
     --tag "$VERSION" \
     --name "$VERSION" \
