@@ -28,7 +28,7 @@ do
     echo $filename
 
     github_release upload \
-        --user "itmh" \
+        --user "leominov" \
         --repo "commit-msg" \
         --tag "$VERSION" \
         --name "$filename" \

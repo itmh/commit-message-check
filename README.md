@@ -1,8 +1,9 @@
-# Commit message hook [![Build Status](https://travis-ci.org/itmh/commit-msg.svg?branch=master)](https://travis-ci.org/itmh/commit-msg) [![Release](https://img.shields.io/github/release/itmh/commit-msg.svg)](https://github.com/itmh/commit-msg/releases/latest)
+# Commit message hook [![Build Status](https://travis-ci.org/leominov/commit-msg.svg?branch=master)](https://travis-ci.org/itmh/commit-msg) [![Release](https://img.shields.io/github/release/leominov/commit-msg.svg)](https://github.com/itmh/commit-msg/releases/latest)
 
 Простая утилита для проверки коммит-сообщения на соответствие некоторым нормам:
 
 * Сообщение должно состоять из заголовка и содержимого, отделённого пустой строкой;
+* Заголовок должен содержать номер задачи (например: DIRI55-100, OPS-1000, BAM-50000);
 * Заголовок должен начинаться с заглавной буквы;
 * Заголовок должен быть в длину не более 50 символов;
 * Заголовок не должен заканчиваться точкой;
